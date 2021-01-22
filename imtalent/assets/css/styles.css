@@ -1,0 +1,147 @@
+body{
+    background-color: #141829;
+    background-repeat: no-repeat;
+    color: #F9F2D7;
+}
+
+body *{
+    font-family: Ubuntu;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: normal;
+    margin: 0;
+}
+
+a, a:hover, a:visited{
+    color: #F2DEA8;
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 960px;
+    margin-right: 10px;
+    margin-left: 300px;
+}
+
+div.wrapper h1{
+    text-align:left;
+    margin:100px auto;
+    font-size: 2.4em;
+}
+
+nav li{
+    display:inline-block;
+    margin-left:20px;
+}
+
+nav button{
+    background-color:#ff0909;
+    cololr:#F2DEA8;
+    border:0;
+    font-size: 1em;
+}
+
+.videos {
+    display: grid;
+    grid-gap:30px;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.video{
+    padding: 10px;
+    border: 3px solid  #ff0909;
+    padding-bottom:40px;
+    position: relative;
+}
+
+.video h2{
+    font-size: 1.2em;
+    text-align:center
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding:20px;
+
+}
+
+
+nav{
+    justify-self: end;
+}
+
+nav li{
+    font-size:1.9em;
+    display:inline-block;
+    margin-top:60px
+}
+
+.site-form{
+  margin-top: 60px;
+  border: 1px solide #ff0909;
+  padding: 20px;
+}
+
+.site-form input, .site-form textarea{
+  display: block;
+  margin: 20px;
+  padding: 10px;
+}
+
+a.highligth{
+  border: 1px solide #ff0909;
+  padding: 10px;
+  border-radius: 4px;
+  color: #ff0909;
+}
+
+.helptext, .helptext ul{
+  margin: 0 auto 20px;
+  color: #F2DEA8;
+  font-size: 0.9em;
+  display: block;
+}
+
+-errorlist li{
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid #ff0909;
+  color: #F2DEA8;
+  margin: 10 px 0;
+}
+
+errorlist{
+  padding: 0;
+}
+
+.site-form input[type="submit"]{
+  background: #ff0909;
+  border: 0;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.video .owner{
+    padding: 10px;
+    background: #ff0909;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #141829;
+}
+
+.grid-item {
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+  }

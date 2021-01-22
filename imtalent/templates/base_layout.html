@@ -1,0 +1,39 @@
+{% load static  %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Videos</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+  </head>
+  <body>
+      <header class="wrapper">
+        <div class="logo">
+          <h1>
+            <a href="{% url 'homepage' %}"><img src="{% static 'logo.png'%}" /></a>
+          </h1>
+        </div>
+        <nav>
+          <ul>
+            {% if user.is_authenticated %}
+            <li>
+              <form class="submit" action="{% url 'users:logout' %}" method="POST">
+              {% csrf_token %}
+              <button type="submit">Logout</button>
+              </form>
+            </li>
+            <li><a href="{% url 'videos:create' %}" class="highligth">New video</a></li>
+            {% else %}
+                <li><a href="{% url 'users:login'%}">Login</a></li>
+                <li><a href="{% url 'users:signup'%}">Sign up</a></li>
+            {% endif %}
+          </ul>
+        </nav>
+      </header>
+    <div class="wrapper">
+        {% block content%}
+        {% endblock %}
+    </div>
+  </body>
+</html>
