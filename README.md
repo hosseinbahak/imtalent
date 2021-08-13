@@ -9,9 +9,8 @@
 
 <img src="https://user-images.githubusercontent.com/34401089/129382664-680508d0-0fc3-42dd-9f9c-c4b5058df2aa.png">
 
-The Moovie was developed as a project for Software Eng class.
+IMTALENT was an idea for sharing peoples short videos and their dubsmashes.
 
-This web application is a visual and pretty interface for [kaggle](https://www.kaggle.com/rounakbanik/the-movies-dataset) dataset.
 
 ## How to run
 If you don't know how to run this app you should look at [here](https://github.com/hosseinbahak/SE2/wiki/How-to-use).
