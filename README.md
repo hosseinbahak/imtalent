@@ -17,7 +17,6 @@ If you don't know how to run this app you should look at [here](https://github.c
 
 ## Contributors
 * [hossein bahak](https://github.com/hosseinbahak) back-end and database developer
-## Wiki
-You can look at our wiki page for more information. [Wiki](https://github.com/hosseinbahak/)
+
 ## License
 The Moovie App is open source software licensed as [GPL-3.0](https://github.com/hosseinbahak/SE2/blob/main/LICENSE).
