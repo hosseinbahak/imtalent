@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/static/v1?label=Database&message=SQLite&color=important">
 </p>
 
-<img src="https://user-images.githubusercontent.com/34401089/129382664-680508d0-0fc3-42dd-9f9c-c4b5058df2aa.png">
+<img src="https://user-images.githubusercontent./34401089/129382664-680508d0-0fc3-42dd-9f9c-c4b5058df2aa.png">
 
 IMTALENT was an idea for sharing peoples short videos and their dubsmashes.
 
